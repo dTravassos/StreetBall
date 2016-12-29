@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">StreetBall</string>
+    <string name="app_name">Streetball Counter</string>
+    <string name="team_a">Team A</string>
+    <string name="team_b">Team B</string>
+    <string name="score_three_button">+ 3 Points</string>
+    <string name="score_two_button">+ 2 Points</string>
+    <string name="score_one_button">Free Throw</string>
+    <string name="initialize_button">reset</string>
 </resources>
