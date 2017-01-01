@@ -8,17 +8,17 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
-        <item name="android:background">#FF6600</item>
+    <style name="AppTheme.SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/background_splash</item>
     </style>
-
 
     <style name="SimpleButton" parent="@android:style/TextAppearance.DeviceDefault.Medium" >
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:height">45dp</item>
-        <item name="android:background">#ffad43</item>
-        <item name="android:layout_marginTop">15sp</item>
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:background">@color/colorOrangeHigh</item>
+        <item name="android:layout_marginTop">10sp</item>
         <item name="android:layout_marginLeft">50sp</item>
         <item name="android:layout_marginRight">50sp</item>
         <item name="android:layout_gravity">center_horizontal</item>
@@ -27,12 +27,14 @@
     <style name="SimplePoint" parent="@android:style/TextAppearance.DeviceDefault.Large" >
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorBlack</item>
         <item name="android:text">0</item>
-        <item name="android:layout_marginTop">15sp</item>
+        <item name="android:layout_marginTop">10sp</item>
         <item name="android:layout_gravity">center_horizontal</item>
     </style>
 
     <style name="TeamTitle" parent="@android:style/TextAppearance.DeviceDefault.Medium" >
+        <item name="android:textColor">@color/colorBlack</item>
         <item name="android:layout_marginTop">15sp</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -40,6 +42,7 @@
     </style>
 
     <style name="TeamGroup" parent="@android:style/TextAppearance.DeviceDefault.Large" >
+        <item name="android:textColor">@color/colorBlack</item>
         <item name="android:layout_weight">1</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_width">0dp</item>

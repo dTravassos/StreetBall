@@ -13,12 +13,16 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.AppTheme);
+
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
+
+        initialize();
     }
 
-
-    public void initialize(View view){
+    public void initialize(){
         points_side_a = 0;
 
         points_side_b = 0;
